@@ -1,0 +1,6 @@
+framework module RudderKit {
+  umbrella header "RudderKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

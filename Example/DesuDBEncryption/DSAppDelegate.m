@@ -7,12 +7,22 @@
 //
 
 #import "DSAppDelegate.h"
+#import <Rudder/Rudder.h>
+#import "EncryptedDatabaseProvider.h"
 
 @implementation DSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    RSConfigBuilder *builder = [[RSConfigBuilder alloc] init];
+                [builder withLoglevel:RSLogLevelVerbose];
+                [builder withTrackLifecycleEvens:YES];
+                [builder withRecordScreenViews:YES];
+                [builder withDataPlaneUrl:@"https://rudderstachvf.dataplane.rudderstack.com"];
+                [builder withSleepTimeOut:3000];
+                [builder withDBEncryption:[[RSDBEncryption alloc] initWithKey:@"test1234" enable:YES databaseProvider:[EncryptedDatabaseProvider new]]];
+                [RSClient getInstance:@"1pTxG1Tqxr7FCrqIy7j0p28AENV" config:[builder build]];
     return YES;
 }
 

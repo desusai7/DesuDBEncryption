@@ -1,0 +1,43 @@
+PODS:
+  - DesuDBEncryption (0.1.0):
+    - Rudder (~> 1.20)
+    - SQLCipher (~> 4.0)
+  - MetricsReporter (1.1.0):
+    - RSCrashReporter (~> 1.0.0)
+    - RudderKit (~> 1.4.0)
+  - RSCrashReporter (1.0.0)
+  - Rudder (1.20.0):
+    - MetricsReporter (= 1.1.0)
+  - RudderKit (1.4.0)
+  - SQLCipher (4.5.5):
+    - SQLCipher/standard (= 4.5.5)
+  - SQLCipher/common (4.5.5)
+  - SQLCipher/standard (4.5.5):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - DesuDBEncryption (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MetricsReporter
+    - RSCrashReporter
+    - Rudder
+    - RudderKit
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  DesuDBEncryption:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DesuDBEncryption: bfe5b38b7a19c2a737fc9636a98f82805f7c3641
+  MetricsReporter: 319426a9cca7539066fff0ad4106572c644661ed
+  RSCrashReporter: e9ccaebd996263f8325a6cbef44ff74aa5f58e30
+  Rudder: 6d1dc8dd6901d503666002ecc9973c2c11d29a89
+  RudderKit: f272f9872183946452ac94cd7bb2244a71e6ca8f
+  SQLCipher: f2e96b3822e3006b379181a0e4fd145f6de29b56
+
+PODFILE CHECKSUM: d43b092a9e7f5aa4c14b28ff8a989e376416f6f3
+
+COCOAPODS: 1.12.0

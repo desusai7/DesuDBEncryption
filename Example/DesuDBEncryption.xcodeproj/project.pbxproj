@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		19843A503C1A0151D464A752 /* Pods_DesuDBEncryption_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26BBA27CD287344E891F7BA7 /* Pods_DesuDBEncryption_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -21,9 +20,11 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		6D53FB7BF39F5B58D9A6C5EE /* Pods_DesuDBEncryption_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3736F38A5ABE3F0AAAE131C /* Pods_DesuDBEncryption_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A1EF716B9436711F7F8D7938 /* Pods_DesuDBEncryption_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10870A6C6367261EEE25E1EF /* Pods_DesuDBEncryption_Tests.framework */; };
+		BBADD0CBCD59EDA41D7C0641 /* Pods_DesuDBEncryption_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2768DCA57282083452EBA6C9 /* Pods_DesuDBEncryption_Example.framework */; };
+		F6AA38212ABAA52E00E74891 /* EncryptedDatabaseProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = F6AA381F2ABAA52D00E74891 /* EncryptedDatabaseProvider.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		079A280FEE2C506ADD524265 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		26BBA27CD287344E891F7BA7 /* Pods_DesuDBEncryption_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuDBEncryption_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2929A98E29C63F76BC0564E4 /* DesuDBEncryption.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DesuDBEncryption.podspec; path = ../DesuDBEncryption.podspec; sourceTree = "<group>"; };
-		33E9B032129E9172AE64F5DC /* Pods-DesuDBEncryption_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Tests.release.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Tests/Pods-DesuDBEncryption_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		079A280FEE2C506ADD524265 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		10870A6C6367261EEE25E1EF /* Pods_DesuDBEncryption_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuDBEncryption_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2768DCA57282083452EBA6C9 /* Pods_DesuDBEncryption_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuDBEncryption_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2929A98E29C63F76BC0564E4 /* DesuDBEncryption.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DesuDBEncryption.podspec; path = ../DesuDBEncryption.podspec; sourceTree = "<group>"; };
+		2B7B501EF43225FC42EB3422 /* Pods-DesuDBEncryption_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Tests.release.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Tests/Pods-DesuDBEncryption_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3793E97FB5C1B91BA18C4E2E /* Pods-DesuDBEncryption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Tests/Pods-DesuDBEncryption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DesuDBEncryption_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesuDBEncryption_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +63,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66DAF26FC211ECAF1DBB4296 /* Pods-DesuDBEncryption_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Example.debug.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Example/Pods-DesuDBEncryption_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		704BB6E3A5083D247AB606E0 /* Pods-DesuDBEncryption_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Example.debug.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Example/Pods-DesuDBEncryption_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8BA750DA09942FBBEE99EAEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		9B7327CF7BB746EA2E267829 /* Pods-DesuDBEncryption_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Example.release.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Example/Pods-DesuDBEncryption_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A3736F38A5ABE3F0AAAE131C /* Pods_DesuDBEncryption_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DesuDBEncryption_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC4172E21F6D7BA9EE9F1549 /* Pods-DesuDBEncryption_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Tests/Pods-DesuDBEncryption_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8BA750DA09942FBBEE99EAEC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B0AF007A62832DAEF624245A /* Pods-DesuDBEncryption_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesuDBEncryption_Example.release.xcconfig"; path = "Target Support Files/Pods-DesuDBEncryption_Example/Pods-DesuDBEncryption_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F6AA381F2ABAA52D00E74891 /* EncryptedDatabaseProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EncryptedDatabaseProvider.m; path = ../DesuDBEncryption/Classes/EncryptedDatabaseProvider.m; sourceTree = "<group>"; };
+		F6AA38202ABAA52E00E74891 /* EncryptedDatabaseProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EncryptedDatabaseProvider.h; path = ../DesuDBEncryption/Classes/EncryptedDatabaseProvider.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				6D53FB7BF39F5B58D9A6C5EE /* Pods_DesuDBEncryption_Example.framework in Frameworks */,
+				BBADD0CBCD59EDA41D7C0641 /* Pods_DesuDBEncryption_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				19843A503C1A0151D464A752 /* Pods_DesuDBEncryption_Tests.framework in Frameworks */,
+				A1EF716B9436711F7F8D7938 /* Pods_DesuDBEncryption_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +101,8 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				F6AA38202ABAA52E00E74891 /* EncryptedDatabaseProvider.h */,
+				F6AA381F2ABAA52D00E74891 /* EncryptedDatabaseProvider.m */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for DesuDBEncryption */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -123,8 +128,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				A3736F38A5ABE3F0AAAE131C /* Pods_DesuDBEncryption_Example.framework */,
-				26BBA27CD287344E891F7BA7 /* Pods_DesuDBEncryption_Tests.framework */,
+				2768DCA57282083452EBA6C9 /* Pods_DesuDBEncryption_Example.framework */,
+				10870A6C6367261EEE25E1EF /* Pods_DesuDBEncryption_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -178,12 +183,11 @@
 		60D6F5CBB5ED20F9987DCB59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				66DAF26FC211ECAF1DBB4296 /* Pods-DesuDBEncryption_Example.debug.xcconfig */,
-				9B7327CF7BB746EA2E267829 /* Pods-DesuDBEncryption_Example.release.xcconfig */,
-				BC4172E21F6D7BA9EE9F1549 /* Pods-DesuDBEncryption_Tests.debug.xcconfig */,
-				33E9B032129E9172AE64F5DC /* Pods-DesuDBEncryption_Tests.release.xcconfig */,
+				704BB6E3A5083D247AB606E0 /* Pods-DesuDBEncryption_Example.debug.xcconfig */,
+				B0AF007A62832DAEF624245A /* Pods-DesuDBEncryption_Example.release.xcconfig */,
+				3793E97FB5C1B91BA18C4E2E /* Pods-DesuDBEncryption_Tests.debug.xcconfig */,
+				2B7B501EF43225FC42EB3422 /* Pods-DesuDBEncryption_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -204,11 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "DesuDBEncryption_Example" */;
 			buildPhases = (
-				AF841D0570EFF368D5E03A60 /* [CP] Check Pods Manifest.lock */,
+				EB5C74BC22785C45EB34F770 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				EDAE09F035CEB55B591A22AD /* [CP] Embed Pods Frameworks */,
+				F5F0818B790BEB095F4A40BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "DesuDBEncryption_Tests" */;
 			buildPhases = (
-				BA416656BE02B67E70999899 /* [CP] Check Pods Manifest.lock */,
+				B893C9F8739C13E7C9C470FE /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,29 +300,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		AF841D0570EFF368D5E03A60 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DesuDBEncryption_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BA416656BE02B67E70999899 /* [CP] Check Pods Manifest.lock */ = {
+		B893C9F8739C13E7C9C470FE /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -339,7 +322,29 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EDAE09F035CEB55B591A22AD /* [CP] Embed Pods Frameworks */ = {
+		EB5C74BC22785C45EB34F770 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DesuDBEncryption_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5F0818B790BEB095F4A40BE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -347,10 +352,20 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DesuDBEncryption_Example/Pods-DesuDBEncryption_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DesuDBEncryption/DesuDBEncryption.framework",
+				"${BUILT_PRODUCTS_DIR}/MetricsReporter/MetricsReporter.framework",
+				"${BUILT_PRODUCTS_DIR}/RSCrashReporter/RSCrashReporter.framework",
+				"${BUILT_PRODUCTS_DIR}/Rudder/Rudder.framework",
+				"${BUILT_PRODUCTS_DIR}/RudderKit/RudderKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLCipher/SQLCipher.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DesuDBEncryption.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MetricsReporter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RSCrashReporter.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rudder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RudderKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLCipher.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,6 +379,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AA38212ABAA52E00E74891 /* EncryptedDatabaseProvider.m in Sources */,
 				6003F59E195388D20070C39A /* DSAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* DSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -491,7 +507,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66DAF26FC211ECAF1DBB4296 /* Pods-DesuDBEncryption_Example.debug.xcconfig */;
+			baseConfigurationReference = 704BB6E3A5083D247AB606E0 /* Pods-DesuDBEncryption_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -507,7 +523,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9B7327CF7BB746EA2E267829 /* Pods-DesuDBEncryption_Example.release.xcconfig */;
+			baseConfigurationReference = B0AF007A62832DAEF624245A /* Pods-DesuDBEncryption_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -523,7 +539,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BC4172E21F6D7BA9EE9F1549 /* Pods-DesuDBEncryption_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3793E97FB5C1B91BA18C4E2E /* Pods-DesuDBEncryption_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -548,7 +564,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33E9B032129E9172AE64F5DC /* Pods-DesuDBEncryption_Tests.release.xcconfig */;
+			baseConfigurationReference = 2B7B501EF43225FC42EB3422 /* Pods-DesuDBEncryption_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

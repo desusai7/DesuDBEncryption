@@ -1,0 +1,6 @@
+framework module MetricsReporter {
+  umbrella header "MetricsReporter-umbrella.h"
+
+  export *
+  module * { export * }
+}
