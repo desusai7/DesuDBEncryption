@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'DesuDBEncryption_Example' do
+  pod 'DesuDBEncryption', :path => '../'
+
+  target 'DesuDBEncryption_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
